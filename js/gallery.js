@@ -89,7 +89,6 @@ list.addEventListener('click', function(event) {
   if(event.target.nodeName !== "IMG"){
     return;
   }
-
   
   const selectedImg = event.target.dataset.source;
 
